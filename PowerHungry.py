@@ -65,8 +65,6 @@ def answer(xs):
     result.append(presult and nresult and zresult and presult * nresult * zresult)
     return max(result)
 
-answer = answer2
-
 assert(answer([2, 0, 2, 2, 0]) == 8)
 assert(answer([-2, -3, 4, -5]) == 60)
 assert(answer([-1, 0, -2, -2, 0]) == 4)

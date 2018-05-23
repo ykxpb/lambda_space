@@ -93,10 +93,6 @@ def answer(src, dest):
         if src == node:
             return n
 
-# assert(answer(19, 36) == 1)
-# assert(answer(0, 1) == 3)
-print(answer(0, 63))
-#print(answer(-1, -10))
-#print(answer(0, 60))
-
+assert(answer(19, 36) == 1)
+assert(answer(0, 1) == 3)
 print('ok')

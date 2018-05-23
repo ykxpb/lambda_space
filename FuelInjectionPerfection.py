@@ -42,17 +42,6 @@ Output:
     (int) 5
 """
 
-"""
-d[n] = m
-n : 具体数字
-m : 数
-
-d[n] = d[n / 2] + 1
-d[n] = d[n - 1] + 1
-d[n] = d[n + 1] + 1
-
-d(i) = min{d(i-1) * 2, d(i-1) + 1, d(i-1) - 1}
-"""
 def answer(n):
     tcache = {1L: 0, 2L: 1}
     
